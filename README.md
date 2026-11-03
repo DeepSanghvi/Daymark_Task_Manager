@@ -40,3 +40,8 @@ The included Dockerfile builds the React bundle and packages it with the Node AP
 5. Use `/api/health` as the service health check. Rotate the JWT secret carefully: existing tokens will stop working after rotation.
 
 For production, use a managed database migration job and apply schema changes in a controlled release rather than relying on application startup DDL. The startup initializer here keeps the small starter easy to run locally.
+
+## Screenshots
+
+<img width="1265" height="683" alt="Screenshot 2026-11-02 230605" src="https://github.com/user-attachments/assets/e293f3dc-4b24-404e-96b4-48ab5cc85c0a" />
+<img width="1266" height="683" alt="Screenshot 2026-11-02 230823" src="https://github.com/user-attachments/assets/92e9ebd3-99e9-4d52-8bea-a73a817d87f5" />
